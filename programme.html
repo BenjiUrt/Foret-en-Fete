@@ -3,13 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Programme</title>
+  <title>Programme — Forêt en Fête</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .periode-titre {
+      font-size: 1.3rem;
+      color: #c77dff;
+      margin: 32px 0 12px;
+      border-left: 4px solid #c77dff;
+      padding-left: 12px;
+    }
+    .activite-card {
+      background: #1a1a2e;
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-bottom: 12px;
+    }
+    .activite-nom {
+      font-size: 1.05rem;
+      font-weight: bold;
+      color: #e0aaff;
+      margin-bottom: 4px;
+    }
+    .activite-horaire {
+      font-size: 0.9rem;
+      color: #aaa;
+      margin-bottom: 6px;
+    }
+    .activite-description {
+      font-size: 0.92rem;
+      color: #ddd;
+      line-height: 1.5;
+    }
+    .activite-type {
+      display: inline-block;
+      font-size: 0.75rem;
+      background: #2d2d44;
+      color: #c77dff;
+      border-radius: 20px;
+      padding: 2px 10px;
+      margin-top: 8px;
+    }
+  </style>
 </head>
 <body>
 
   <header>
-    <h1>🎶 Mon Festival 2025</h1>
+    <h1>🌲 Forêt en Fête</h1>
     <nav>
       <a href="index.html">Accueil</a>
       <a href="programme.html">Programme</a>
@@ -18,51 +58,41 @@
   </header>
 
   <main>
-    <h2>Programme</h2>
-
-    <section class="jour">
-      <h3>🗓 Vendredi 20 juin</h3>
-      <table>
-        <tr>
-          <th>Heure</th>
-          <th>Artiste</th>
-          <th>Scène</th>
-        </tr>
-        <tr>
-          <td>18h00</td>
-          <td>Artiste A</td>
-          <td>Scène principale</td>
-        </tr>
-        <tr>
-          <td>20h30</td>
-          <td>Artiste B</td>
-          <td>Scène secondaire</td>
-        </tr>
-      </table>
-    </section>
-
-    <section class="jour">
-      <h3>🗓 Samedi 21 juin</h3>
-      <table>
-        <tr>
-          <th>Heure</th>
-          <th>Artiste</th>
-          <th>Scène</th>
-        </tr>
-        <tr>
-          <td>17h00</td>
-          <td>Artiste C</td>
-          <td>Scène principale</td>
-        </tr>
-        <tr>
-          <td>21h00</td>
-          <td>Artiste D</td>
-          <td>Scène principale</td>
-        </tr>
-      </table>
-    </section>
-
+    <h2>Programme de la journée</h2>
+    <div id="programme">Chargement du programme...</div>
   </main>
+
+  <script>
+    fetch('programme.json')
+      .then(r => r.json())
+      .then(data => {
+        const container = document.getElementById('programme');
+        container.innerHTML = '';
+
+        data.forEach(bloc => {
+          const titre = document.createElement('h3');
+          titre.className = 'periode-titre';
+          titre.textContent = bloc.periode;
+          container.appendChild(titre);
+
+          bloc.activites.forEach(a => {
+            const card = document.createElement('div');
+            card.className = 'activite-card';
+            card.innerHTML = `
+              <div class="activite-nom">${a.nom}</div>
+              <div class="activite-horaire">⏰ ${a.horaire}</div>
+              <div class="activite-description">${a.description}</div>
+              <span class="activite-type">${a.type}</span>
+            `;
+            container.appendChild(card);
+          });
+        });
+      })
+      .catch(() => {
+        document.getElementById('programme').textContent =
+          'Impossible de charger le programme.';
+      });
+  </script>
 
 </body>
 </html>
