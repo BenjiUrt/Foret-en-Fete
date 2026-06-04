@@ -1,0 +1,183 @@
+[
+  {
+    "periode": "Toute la journée (10h00 - 18h30)",
+    "activites": [
+      {
+        "nom": "🌳 Escalad'Arbre",
+        "horaire": "10h00 - 18h30 (pause le midi)",
+        "description": "Sécurisé par un baudrier, vivez une expérience unique de communion avec l'arbre jusqu'à 12m de haut. Vue imprenable sur les montagnes basques. Sessions de 30 min. Places limitées. 5€/session, à payer en espèces.",
+        "type": "Activité"
+      },
+      {
+        "nom": "🌳 Atelier Attrape-rêves",
+        "horaire": "10h00 - 18h30 (pause le midi)",
+        "description": "Découvrez la fabrication artisanale d'attrape-rêves avec Aurora. Apprenez à utiliser les ressources naturelles et repartez avec votre création.",
+        "type": "Atelier"
+      },
+      {
+        "nom": "🌳 Sculpture d'argile",
+        "horaire": "10h30 - 18h00 (pause le midi)",
+        "description": "Connectez-vous à la terre par le plaisir du toucher. Guidés par Cathy, créez des objets ou animaux en argile.",
+        "type": "Atelier"
+      },
+      {
+        "nom": "🌳 Création collective de Land Art",
+        "horaire": "Toute la journée",
+        "description": "Participez à la création d'une exposition de land art en pleine forêt, le long d'un parcours balisé. Contribuez avec votre propre création éphémère.",
+        "type": "Activité"
+      },
+      {
+        "nom": "🌳 Zone sieste & coin détente",
+        "horaire": "Toute la journée",
+        "description": "Lisez, relisez ou écoutez des histoires sur le thème de la forêt. Animé par Claire-Hélène, notre médiathécaire.",
+        "type": "Détente"
+      },
+      {
+        "nom": "🌳 Parcours du système solaire",
+        "horaire": "Toute la journée",
+        "description": "Voyagez physiquement à travers le système solaire via un parcours grandeur nature.",
+        "type": "Activité"
+      },
+      {
+        "nom": "🦊 Traces et indices — Découverte des animaux de la forêt",
+        "horaire": "10h00 - 12h00",
+        "description": "Venez apprendre et poser vos questions au stand du CEN (Conservatoire d'Espaces Naturels) de Nouvelle-Aquitaine.",
+        "type": "Découverte"
+      }
+    ]
+  },
+  {
+    "periode": "Matin",
+    "activites": [
+      {
+        "nom": "🧒 Balade-défi \"Viens sauver la forêt\"",
+        "horaire": "10h00 - 12h00 (départs libres)",
+        "description": "Jeu de piste — 1h à 1h15. Le Basajaun, gardien de la forêt, est malade… Pars à l'aventure pour l'aider en accomplissant des missions et en choisissant les bonnes runes magiques. Jeu créé par les CE2 de l'école Francis Jammes.",
+        "type": "Jeu"
+      },
+      {
+        "nom": "🥋 Taïso — Réveil corporel",
+        "horaire": "10h30 - 11h30",
+        "description": "Art japonais du mouvement — 1h. Échauffement selon la tradition japonaise avec Anne-Cécile, notre ostéopathe.",
+        "type": "Bien-être"
+      },
+      {
+        "nom": "🎶 Bain de forêt \"S'en-chanter\"",
+        "horaire": "11h00 - 12h15",
+        "description": "Immersion sonore et vocale en forêt — 1h15. Explorez et jouez avec les sons, le rythme, le chant, en résonance avec les arbres. Atelier guidé par Dominique.",
+        "type": "Bien-être"
+      }
+    ]
+  },
+  {
+    "periode": "Pause déjeuner",
+    "activites": [
+      {
+        "nom": "🍴 Pause déjeuner à la Guinguette",
+        "horaire": "12h30 - 14h00",
+        "description": "Restauration sur place : taloas, crêpes, boissons, gâteaux et assiettes de crudités. Temps libre dans les espaces du festival.",
+        "type": "Restauration"
+      }
+    ]
+  },
+  {
+    "periode": "Après-midi",
+    "activites": [
+      {
+        "nom": "🧒 Balade-défi \"Viens sauver la forêt\"",
+        "horaire": "14h00 - 16h00 (départs libres)",
+        "description": "Deuxième session du jeu de piste.",
+        "type": "Jeu"
+      },
+      {
+        "nom": "🎨 Atelier peinture sur Totems",
+        "horaire": "14h00 - 18h00",
+        "description": "Apprenez à décorer et composer votre propre totem en bois avec Sandrine, notre experte en arts manuels.",
+        "type": "Atelier"
+      },
+      {
+        "nom": "📖 Lecture à deux voix",
+        "horaire": "14h00 - 14h45",
+        "description": "Textes courts en forêt. Lectures sur la forêt au milieu des arbres, proposées par Sylvie et Dominique, accompagnées de Franz au Saxophone.",
+        "type": "Culture"
+      },
+      {
+        "nom": "🌿 Teinture végétale",
+        "horaire": "14h00 - 16h00",
+        "description": "Découverte des couleurs naturelles avec Valérie, experte botaniste de l'association \"Éveiller sa Nature\". Apprenez les recettes propres à chaque plante.",
+        "type": "Atelier"
+      },
+      {
+        "nom": "🌱 Balade botanique — Plantes sauvages comestibles",
+        "horaire": "14h30 - 16h30",
+        "description": "2h de balade. Suivez Marie, notre druidéesse, pour découvrir la sagesse ancienne et les plantes sauvages et comestibles.",
+        "type": "Balade"
+      },
+      {
+        "nom": "🍃 Parcours du lien — Pleine conscience",
+        "horaire": "15h00 - 17h00",
+        "description": "2h. Reconnectez-vous physiquement à la nature à travers des exercices sensoriels avec Anne-Cécile, notre ostéopathe.",
+        "type": "Bien-être"
+      },
+      {
+        "nom": "🔭 Observation du ciel — Soirée astronomie",
+        "horaire": "16h30 - 18h00",
+        "description": "Avec Christophe de l'association SAPCB (Société d'Astronomie Populaire de la Côte Basque). On parlera aussi de l'éclipse du 12 août.",
+        "type": "Découverte"
+      },
+      {
+        "nom": "📖 Lecture à deux voix — 2ème représentation",
+        "horaire": "16h45 - 17h30",
+        "description": "Lectures de textes sur la forêt par Sylvie et Dominique, accompagnées de Franz au Saxophone.",
+        "type": "Culture"
+      },
+      {
+        "nom": "🐝 Contes en musique — Conte autour des abeilles",
+        "horaire": "17h00 - 17h40",
+        "description": "40 min. Claude nous raconte ses contes sur les abeilles et la sagesse des arbres. Musique de sa troupe \"de Bouche z'à Oreilles\".",
+        "type": "Culture"
+      }
+    ]
+  },
+  {
+    "periode": "Soirée",
+    "activites": [
+      {
+        "nom": "🎵 Chorale \"Vivement Lundi\"",
+        "horaire": "18h00 - 19h30",
+        "description": "Chants traditionnels, musiques actuelles et improvisations vocales. Chorale bayonnaise de 25 chanteuses et chanteurs, sous la direction de Maylis Raynal.",
+        "type": "Concert"
+      },
+      {
+        "nom": "🍴 Apéro à la Guinguette",
+        "horaire": "Dès 18h00",
+        "description": "Restauration sur place : taloas, crêpes, boissons, gâteaux et assiettes de crudités.",
+        "type": "Restauration"
+      },
+      {
+        "nom": "🎵 Musique et chants du monde",
+        "horaire": "21h00 - 22h30",
+        "description": "Venez honorer la terre mère – Pachamama – avec les voix de l'éco-lieu du Laring.",
+        "type": "Concert"
+      },
+      {
+        "nom": "🔭 Découverte du ciel nocturne et des constellations",
+        "horaire": "21h30",
+        "description": "Plongez la tête dans les étoiles, guidé par Christophe de l'association SAPCB. Une expérience inoubliable sublimée par l'environnement naturel et les bruits de la nuit.",
+        "type": "Découverte"
+      },
+      {
+        "nom": "🎵 Animation musicale de clôture",
+        "horaire": "22h00 - 23h30",
+        "description": "Temps de remerciement à la forêt en musique, avec la participation des festivaliers. Chants et instruments acoustiques : harpe, hang drum, didjeridoo, tambours, guitare…",
+        "type": "Concert"
+      },
+      {
+        "nom": "🌙 Clôture de la Fête de la Forêt",
+        "horaire": "23h30",
+        "description": "Fin du festival.",
+        "type": "Clôture"
+      }
+    ]
+  }
+]
